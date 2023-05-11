@@ -1,0 +1,66 @@
+h1 {
+  color: aqua;
+  text-transform: capitalize;
+}
+
+ul {
+  font-size: 28px;
+  font-weight: 150;
+  color: rgb(1, 24, 24);
+  margin: 0;
+  padding: 0;
+}
+ul:hover {
+  color: #47d1db;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+small {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 230px;
+}
+
+.container {
+  background-image: url(/src/images/cloud.jpg);
+  border-radius: 1px;
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 900px;
+  border: 1px solid #dadde1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.descr {
+  text-transform: capitalize;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+}
+#degrees {
+  color: aqua;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+#fahr,
+#celc {
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+  cursor: default;
+}
+
+#fahr:hover,
+#celc:hover {
+  color: #0cd7e6;
+  cursor: pointer;
+}
